@@ -5,5 +5,7 @@ Rails.application.routes.draw do
     resources :todos
   end
 
+  resources :posts
+
   root to: "home#index"
 end
